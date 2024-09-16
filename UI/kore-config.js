@@ -20,7 +20,7 @@
         }
     }
 
-    botOptions.JWTUrl = "PLEASE_ENTER_JWTURL_HERE";
+    botOptions.JWTUrl = "https://back-end-1-zvp2.onrender.com/get-token";
     botOptions.userIdentity = 'navya.chirumalla@kore.com';// Provide users email id here
     botOptions.botInfo = { name: "Book a Medical Appointment", "_id": "st-ea136431-cce7-5bbe-b151-f50ea29efa25" }; // bot name is case sensitive
 
