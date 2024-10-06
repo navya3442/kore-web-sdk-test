@@ -1,5 +1,5 @@
 (function($){
-   $(document).on('click', '#minimize-btn', function() {
+   $(document).on('click', '.minimize-btn, .close-btn', function() {
         window.parent.postMessage('closeButtonClicked', '*');
     });
 
