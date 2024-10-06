@@ -1,7 +1,12 @@
 (function($){
-        $(document).on('click', '#minimize-btn', function() {
+   $(document).on('click', '#minimize-btn', function() {
         window.parent.postMessage('closeButtonClicked', '*');
     });
+
+   $(document).on('click', '.minimized', function() {
+        window.parent.postMessage('expandBtn', '*');
+    });
+        
 
     $(document).ready(function () {
         function assertion(options, callback) {
