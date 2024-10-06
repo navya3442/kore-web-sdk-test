@@ -1,4 +1,7 @@
 (function($){
+        $(document).on('click', '#minimize-btn', function() {
+        window.parent.postMessage('closeButtonClicked', '*');
+    });
 
     $(document).ready(function () {
         function assertion(options, callback) {
